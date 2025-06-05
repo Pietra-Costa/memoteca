@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
+import { CriarPensamentos } from './components/pensamentos/criar-pensamentos/criar-pensamentos';
 
 @NgModule({
   declarations: [
     App,
     Header,
-    Footer
+    Footer,
+    CriarPensamentos
   ],
   imports: [
     BrowserModule,
